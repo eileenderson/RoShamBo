@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,19 @@
     <title>Rock Paper Scissors</title>
     <script type="text/javascript" src="RoShamBo.js"></script>
 </head>
+
 <body>
- <script>game();
- </script>
+    <label>Pick your weapon:</label>
+    <p>
+        <button id="Rock" onclick="game('Rock')">Rock</button>
+        <button id="Paper " onclick="game( 'Paper')">Paper</button>
+        <button id="Scissors " onclick="game( 'Scissors')">Scissors</button>
+    </p>
+    <p id="Score" title="HI">Good Luck
+    </p>
+    <p id="finalMessage" />
+
+
 </body>
+
 </html>
